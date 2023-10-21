@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2015", // or "ES2015"
+    "lib": ["ES6", "DOM", "ES2015"], // Ensure ES6 and DOM are included
+    "baseUrl": "./",
+    "paths": {
+      "serpapi": ["node_modules/serpapi"]
+    }
+  }
+}
